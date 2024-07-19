@@ -1,6 +1,6 @@
 {
   "name": "multibot-telegram",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon test.js"
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/Fozan-Developer/multibot-telegram/issues"
   },
-  "homepage": "https://github.com/Fozan-Developer/multibot-telegram#readme",
+  "homepage": "https://fozan.gitbook.io/multibot-telegram/",
   "description": "",
   "dependencies": {
     "global-manager": "^1.0.3",
