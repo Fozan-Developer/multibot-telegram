@@ -1,0 +1,30 @@
+{
+  "name": "multibot-telegram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fozan-Developer/multibot-telegram.git"
+  },
+  "keywords": [
+    "telegram",
+    "multibot",
+    "bot",
+    "tg",
+    "nodejs"
+  ],
+  "author": "Mr_Fozan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fozan-Developer/multibot-telegram/issues"
+  },
+  "homepage": "https://github.com/Fozan-Developer/multibot-telegram#readme",
+  "description": "",
+  "dependencies": {
+    "global-manager": "^1.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
