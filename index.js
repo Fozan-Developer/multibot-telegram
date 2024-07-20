@@ -1,5 +1,6 @@
 const { validator, botFromId, getBot } = require("./lib/utils/");
 const connection = require("./lib/connection/connection");
+const globalManager = require('global-manager');
 
 /**
  * @class MultiBot
@@ -57,6 +58,14 @@ class MultiBot {
     getMainBot() {
         const mainBot = this.bots.find(b => b.main === true);
         return getBot(mainBot.id);
+    }
+
+        /**
+     * Retrieves all bot instances.
+     * @returns {Array.<TelegramBot>} - Array of all bot instances.
+     */
+    getAllBots() {
+        return globalManager.get("bots");
     }
 }
 
